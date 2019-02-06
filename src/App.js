@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import WttjSwiper from './components/WttjSwiper/WttjSwiper';
 
-import 'reboot.css/dist/reboot.css';
 import './App.scss';
 
 class App extends Component {
