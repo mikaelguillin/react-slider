@@ -2,9 +2,9 @@ import React from 'react';
 import SearchIcon from '../../icons/SearchIcon';
 import PlayIcon from '../../icons/PlayIcon';
 
-import './WttjSwiperSlide.scss';
+import './slide.scss';
 
-class WttjSwiperSlide extends React.Component {
+class Slide extends React.Component {
 
 	render() {
 		return(
@@ -37,4 +37,4 @@ class WttjSwiperSlide extends React.Component {
 	}
 }
 
-export default WttjSwiperSlide;
+export default Slide;

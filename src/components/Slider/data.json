@@ -1,0 +1,64 @@
+{
+	"slides": [
+		{
+			"type": "video",
+			"link": "#",
+			"img": "http://lorempixel.com/800/600/nature/1"
+		},
+		{
+			"type": "image",
+			"link": "#",
+			"img": "http://lorempixel.com/800/600/nature/2" 
+		},
+		{
+			"type": "quote",
+			"link": "#",
+			"quote": "Hello world"
+		},
+		{
+			"type": "image",
+			"link": "#",
+			"img": "http://lorempixel.com/800/600/nature/3"
+		},
+		{
+			"type": "image",
+			"link": "#",
+			"img": "http://lorempixel.com/800/600/nature/4"
+		},
+		{
+			"type": "image",
+			"link": "#",
+			"img": "http://lorempixel.com/800/600/nature/5"
+		},
+		{
+			"type": "image",
+			"link": "#",
+			"img": "http://lorempixel.com/800/600/nature/6"
+		},
+		{
+			"type": "image",
+			"link": "#",
+			"img": "http://lorempixel.com/800/600/nature/7"
+		},
+		{
+			"type": "image",
+			"link": "#",
+			"img": "http://lorempixel.com/800/600/nature/8"
+		},
+		{
+			"type": "image",
+			"link": "#",
+			"img": "http://lorempixel.com/800/600/nature/1"
+		},
+		{
+			"type": "image",
+			"link": "#",
+			"img": "http://lorempixel.com/800/600/nature/2"
+		},
+		{
+			"type": "image",
+			"link": "#",
+			"img": "http://lorempixel.com/800/600/nature/3"
+		}
+	]
+}

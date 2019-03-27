@@ -4,12 +4,12 @@ import Swiper from 'react-id-swiper';
 import ArrowLeftIcon from '../../icons/ArrowLeftIcon';
 import ArrowRightIcon from '../../icons/ArrowRightIcon';
 
-import WttjSwiperSlide from './WttjSwiperSlide';
+import Slide from './Slide';
 
-import './WttjSwiper.scss';
+import './Slider.scss';
 import dataJson from './data.json';
  
-class WttjSwiper extends React.Component {
+class Slider extends React.Component {
   constructor(props) {
     super(props);
     this.goNext = this.goNext.bind(this);
@@ -59,15 +59,14 @@ class WttjSwiper extends React.Component {
     };
 
     const slides = this.slides.map((slide, index) => 
-      <WttjSwiperSlide key={index} slide={slide} />
+      <Slide key={index} slide={slide} />
     );
 
     return (
       <div className="Swiper">
         <header className="Swiper__header">
-          <a className="headerLogo" href="https://www.welcometothejungle.co/companies/wttj">
-            <img src="https://cdn.welcometothejungle.co/uploads/organization/logo/2636/144492/thumb_wttj.png" alt="Welcome to the Jungle" />
-            <h1>Welcome to the Jungle</h1>
+          <a className="headerLogo" href="#">
+            <h1>Slider</h1>
           </a>
 
           <div className="Swiper__nav">
@@ -85,11 +84,6 @@ class WttjSwiper extends React.Component {
           </Swiper>
         </div>
         <footer className="Swiper__footer">
-          <a href="https://www.welcometothejungle.co">
-            <img src="https://cdn.welcometothejungle.co/wttj-front/assets/images/logos/wttj-long.svg" alt="" />
-          </a>
-
-          <a className="Swiper__profileLink" href="https://www.welcometothejungle.co/companies/wttj">Voir le profil</a>
         </footer>
       </div>
     )
@@ -100,4 +94,4 @@ class WttjSwiper extends React.Component {
   }
 }
 
-export default WttjSwiper;
+export default Slider;
